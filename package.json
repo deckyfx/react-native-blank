@@ -1,0 +1,53 @@
+{
+  "name": "react-native-blank",
+  "version": "1.0",
+  "buildNumber": {
+    "android": 0,
+    "ios": 0
+  },
+  "versionCode": {
+    "android": 1,
+    "ios": 1
+  },
+  "private": true,
+  "engines": {
+    "node": "^20.17.0",
+    "npm": "^10.8.2",
+    "yarn": "^3.6.4"
+  },
+  "packageManager": "yarn@3.6.4",
+  "engineStrict": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest",
+    "rename": "react-native-rename \"React Native App\" -b \"com.deckyfx.reactnative\" --skipGitStatusCheck",
+    "switch-java": "sudo update-alternatives --config javac && sudo update-alternatives --config java",
+    "setup": "rimraf ./node_modules && nvm use && yarn install"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-native": "0.75.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native/babel-preset": "0.75.4",
+    "@react-native/eslint-config": "0.75.4",
+    "@react-native/metro-config": "0.75.4",
+    "@react-native/typescript-config": "0.75.4",
+    "@types/react": "^18.3.11",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^29.6.3",
+    "eslint": "^8.19.0",
+    "jest": "^29.6.3",
+    "prettier": "2.8.8",
+    "react-native-rename": "^3.2.14",
+    "react-test-renderer": "18.3.1",
+    "rimraf": "^6.0.1",
+    "typescript": "5.6.2"
+  }
+}
