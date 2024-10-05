@@ -69,7 +69,5 @@ yarn-error.log
 .yarn/*
 
 yarn.lock
-web/dist/index.html
-web/dist/main.22dc4be6524ef9c02b6b.js
-web/dist/vendor.9616580a4641848f4e67.js
-web/dist/vendor.9616580a4641848f4e67.js.LICENSE.txt
+
+web/dist/
